@@ -47,14 +47,14 @@ def predict(inputs):
                     call_udf("clv_xgboost_udf",(*inputs)).alias('PREDICTION')
                     )
 
-    #return snowdf_results
+    return snowdf_results
 
 # Display the contents of the uploaded file as a DataFrame
 if csv_file is not None:
     try:
         df = pd.read_csv(csv_file)
         st.write('Input data')
-        st.write(df)
+        #st.write(df)
         
         session = create_session()
         session.use_warehouse('FE_AND_INFERENCE_WH')
