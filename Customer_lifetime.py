@@ -15,7 +15,7 @@ warnings.filterwarnings('ignore')
 connection_parameters = {
   "account": "wh80921.us-east-2.aws",
   "user": "clarison",
-  "password": "Ashwin@8767",
+  "password": "23301631cD*",
   "warehouse": "COMPUTE_WH",
   "database": "SNOWFLAKE_SAMPLE_DATA",
   "schema": "Public"
