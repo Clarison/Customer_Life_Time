@@ -47,7 +47,7 @@ def predict(inputs):
                     call_udf("clv_xgboost_udf",(*inputs)).alias('PREDICTION')
                     )
 
-    return snowdf_results
+    #return snowdf_results
 
 # Display the contents of the uploaded file as a DataFrame
 if csv_file is not None:
