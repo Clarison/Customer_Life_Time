@@ -33,10 +33,10 @@ def create_session():
 
 st.text('')
 st.write(
-    f'<h1 style="font-size: 25px;">Customer Spending Prediction using Snowflake Dataplatform</h1>',
+    f'<h1 style="font-size: 25px;">Customer Spending Prediction using Snowflake Data</h1>',
     unsafe_allow_html=True
 )
-csv_file = st.file_uploader(label='Upload CSV file with user data', type = 'csv')
+csv_file = st.file_uploader(label='Upload CSV file with random data', type = 'csv')
 
 def predict(inputs):
 
