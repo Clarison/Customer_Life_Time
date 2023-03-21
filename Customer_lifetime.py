@@ -13,12 +13,12 @@ warnings.filterwarnings('ignore')
        
      
 connection_parameters = {
-  "account": "wh80921.us-east-2.aws",
-  "user": "clarison",
-  "password": "23301631cD*",
+  "account": "oj67901.us-east4.gcp",
+  "user": "ashwinkadam",
+  "password": "Ashwin@8767",
   "warehouse": "COMPUTE_WH",
-  "database": "SNOWFLAKE_SAMPLE_DATA",
-  "schema": "Public"
+  "database": "TPCDS_XGBOOST",
+  "schema": "Demo"
 }
 
 def create_session():
